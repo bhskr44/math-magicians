@@ -1,81 +1,251 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Math Magicians
+<!--
+HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.
+Modify this file to match your project and remove sections that don't apply.
 
-## Built With
+REQUIRED SECTIONS:
+- Table of Contents
+- About the Project
+  - Built With
+  - Live Demo
+- Getting Started
+- Authors
+- Future Features
+- Contributing
+- Show your support
+- Acknowledgements
+- License
 
-- Major languages HTML, CSS and Javascript
-- Frameworks React
-- Technologies used React
+After you're finished please remove all the comments and instructions!
+-->
 
-## Live Demo
+<div align="center">
 
-[Live Demo Link](https://bhskr44.github.io/math-magicians/public)
+  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <br/>
 
-## Getting Started
+  <h3><b>Microverse README Template</b></h3>
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+</div>
 
-To get a local copy up and running follow these simple example steps.
+<!-- TABLE OF CONTENTS -->
+
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
+<!-- PROJECT DESCRIPTION -->
+
+# 📖 [math-magicians] <a name="about-project"></a>
+
+> **[Math magicians]** is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations. Read a random math-related quote.
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+> The tech stack for the project would include React, Redux, React Router, and webpack.
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React.js</a></li>
+  </ul>
+</details>
+
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+>The top fetaures of the website is.
+
+- **Perform Math Calculations**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+> - [Live Demo Link](https://github.com/bhskr44/math-magicians/public)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+> To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- You need a GitHub account.
-- You need to have a Git client installed on your computer.
-- You need to have a copy of the HTML CSS website codebase on your computer.
-- A code Editor of your choice.
+> In order to run this project you need:
+
+```
+    install nodejs
+```
 
 ### Setup
 
+> Clone this repository to your desired folder:
+
 ```
-git clone https://github.com/bhskr44/math-magicians.git
-cd math-magicians
+  git clone git@github.com:bhskr44/math-magicians.git
 ```
 
 ### Install
 
-- Install all the dependencys required for the website. BY using the command below.
-  ```
-  npm install
-  ```
-- Open the index.html file in a browser.
+> Install this project with:
+
+```
+cd math-magicians
+npm install
+```
 
 ### Usage
 
-For making any changes to the project the clone the project-
+> To run the project, execute the following command:
 
--
+```
+npm start
+```
 
 ### Run tests
 
-If you want to work with Chrome Developer Tools, simply run the HTML document in Google Chrome and right-click the HTML element you want to inspect. Click on "Inspect" and you will have the tools to run, analyze, and even debug the code.
+> No test Files has been added to the project.
+
+<!--
+Example command:
+
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
 
 ### Deployment
 
-If you like to deploy the website to the github pages please follow the link [here](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+> You can deploy this project using:
 
-## Authors
+1. [AWS](https://aws.amazon.com/getting-started/hands-on/build-react-app-amplify-graphql/)
+2. [Cpannel](https://dev.to/crishanks/deploy-host-your-react-app-with-cpanel-in-under-5-minutes-4mf6)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+<!-- > Mention all of the collaborators of this project. -->
 
 👤 **Bhaskar Ranjan Bora**
 
-- Website: [https://bhskr44.github.io/](https://bhskr44.github.io/)
 - GitHub: [@bhskr44](https://github.com/bhskr44)
 - Twitter: [@bhskr44](https://twitter.com/bhskr44)
-- LinkedIn: [bhskr44](https://linkedin.com/in/bhskr44)
+- LinkedIn: [@bhskr44](https://linkedin.com/in/bhskr44)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+>
+
+- **Calculate Maths Functions**
+- **Basic Navigation in react**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-## Show your support
+Feel free to check the [issues page](../../issues/).
 
-Give a ⭐️ if you like this project!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Acknowledgments
+<!-- SUPPORT -->
 
-- Thanks for your suport.
+## ⭐️ Show your support <a name="support"></a>
 
-## 📝 License
+> Write a message to encourage readers to support your project
+
+If you like this project...
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank... React Community, Microverse community for the immese help and support.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+> Add at least 2 questions new developers would ask when they decide to use your project.
+
+- **[How to clone this repository to my local system? ]**
+
+  - [Use the command below]
+
+  ```
+  git clone  https://github.com/bhskr44/math-magicians.git
+  cd math-magicians
+  ```
+
+- **[Can I Perform math calculations using it?]**
+
+  - [Yes]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
