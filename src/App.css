@@ -1,39 +1,27 @@
-.App {
-  text-align: center;
+.calculator-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 400px;
+  margin: 200px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calculator-div button {
+  padding: 20px;
+  border: 1px solid gainsboro;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.result {
+  grid-column: 1 / 5;
+  text-align: right;
+  background-color: gray;
+  padding: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.zero {
+  grid-column: 1 / 3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+.highlight {
+  background-color: #ff9f46;
 }
