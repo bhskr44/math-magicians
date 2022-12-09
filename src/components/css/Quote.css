@@ -1,0 +1,15 @@
+.quote_page {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  min-height: 75vh;
+  padding: 2% 20% 2% 20%;
+}
+
+.quote {
+  font-size: 1.3rem;
+  margin-top: 15%;
+}
+
+.author {
+  font-size: 1rem;
+}

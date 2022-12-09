@@ -1,0 +1,15 @@
+.footer {
+  background-color: black;
+  color: #fff;
+  height: 10vh;
+}
+
+.footer_text {
+  text-align: center;
+  margin: 0;
+  padding-top: 2vh;
+}
+
+.footer_text span {
+  color: rgb(202, 15, 77);
+}
