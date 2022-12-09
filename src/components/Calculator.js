@@ -18,31 +18,33 @@ const Calculator = () => {
   };
 
   return (
-    <div className="calculator-div">
-      <div className="result">
-        <span> {total}</span>
-        <span> {operation}</span>
-        <span> {next}</span>
+    <div className="calculator-container">
+      <div className="calculator-div">
+        <div className="result">
+          <span> {total}</span>
+          <span> {operation}</span>
+          <span> {next}</span>
+        </div>
+        <Button content="AC" handleClick={handleClick} />
+        <Button content="+/-" handleClick={handleClick} />
+        <Button content="%" handleClick={handleClick} />
+        <Button content="÷" classes="highlight" handleClick={handleClick} />
+        <Button content="7" handleClick={handleClick} />
+        <Button content="8" handleClick={handleClick} />
+        <Button content="9" handleClick={handleClick} />
+        <Button content="x" handleClick={handleClick} classes="highlight" />
+        <Button content="4" handleClick={handleClick} />
+        <Button content="5" handleClick={handleClick} />
+        <Button content="6" handleClick={handleClick} />
+        <Button content="-" handleClick={handleClick} classes="highlight" />
+        <Button content="1" handleClick={handleClick} />
+        <Button content="2" handleClick={handleClick} />
+        <Button content="3" handleClick={handleClick} />
+        <Button content="+" handleClick={handleClick} classes="highlight" />
+        <Button content="0" handleClick={handleClick} classes="zero" />
+        <Button content="." handleClick={handleClick} />
+        <Button content="=" handleClick={handleClick} classes="highlight" />
       </div>
-      <Button content="AC" handleClick={handleClick} />
-      <Button content="+/-" handleClick={handleClick} />
-      <Button content="%" handleClick={handleClick} />
-      <Button content="÷" classes="highlight" handleClick={handleClick} />
-      <Button content="7" handleClick={handleClick} />
-      <Button content="8" handleClick={handleClick} />
-      <Button content="9" handleClick={handleClick} />
-      <Button content="x" handleClick={handleClick} classes="highlight" />
-      <Button content="4" handleClick={handleClick} />
-      <Button content="5" handleClick={handleClick} />
-      <Button content="6" handleClick={handleClick} />
-      <Button content="-" handleClick={handleClick} classes="highlight" />
-      <Button content="1" handleClick={handleClick} />
-      <Button content="2" handleClick={handleClick} />
-      <Button content="3" handleClick={handleClick} />
-      <Button content="+" handleClick={handleClick} classes="highlight" />
-      <Button content="0" handleClick={handleClick} classes="zero" />
-      <Button content="." handleClick={handleClick} />
-      <Button content="=" handleClick={handleClick} classes="highlight" />
     </div>
   );
 };
